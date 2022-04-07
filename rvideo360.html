@@ -6,11 +6,13 @@
         <link rel="stylesheet" type="text/css" href="boton.css" media="screen" />
         <script src="https://aframe.io/releases/0.7.1/aframe.min.js"></script>
         <script>
-            console.log ("entrant al script")
+            console.log ("entrant al script");
             var vid = document.querySelector('vid');
+            
             var playbuton =document.querySelector('play-button');
-            console.log(vid);
-            console.log(playbutton);
+            
+            console.log("VID: "+vid);
+            console.log("PLAYBUTTON: "+playbutton);
 
             playbuton.addEventListener("click", function(e){
                 this.style.display = 'none';
